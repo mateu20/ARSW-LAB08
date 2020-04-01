@@ -58,11 +58,11 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1010000
 
-    ![](imgFuncionamiento/fibonaacci1010000.png)
+    ![](imgFuncionamiento/fibonaacci1010000.PNG)
 
     * 1020000
 
-    ![](imgFuncionamiento/fibonacci1020000.png)
+    ![](imgFuncionamiento/fibonacci1020000.PNG)
 
 
     * 1030000
@@ -75,24 +75,24 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1050000
 
-    ![](imgFuncionamiento/fibonacci1050000.png)
+    ![](imgFuncionamiento/fibonacci1050000.PNG)
 
 
     * 1060000
 
-    ![](imgFuncionamiento/fibocacci1060000.png)
+    ![](imgFuncionamiento/fibocacci1060000.PNG)
 
     * 1070000
 
-    ![](imgFuncionamiento/fibonacci1070000.png)
+    ![](imgFuncionamiento/fibonacci1070000.PNG)
 
     * 1080000
 
-    ![](imgFuncionamiento/fibonacci1080000.png)
+    ![](imgFuncionamiento/fibonacci1080000.PNG)
 
     * 1090000    
 
-    ![](imgFuncionamiento/fibonacci1090000.png)
+    ![](imgFuncionamiento/fibonacci1090000.PNG)
 
 
 8. Dírijase ahora a Azure y verifique el consumo de CPU para la VM. (Los resultados pueden tardar 5 minutos en aparecer).
