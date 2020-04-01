@@ -66,11 +66,11 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1030000
 
-    ![](imgFuncionamiento/fiboncacci1030000.png)
+    ![](imgFuncionamiento/fiboncacci1030000.PNG)
 
     * 1040000
 
-    ![](imgFuncionamiento/fiboncacci1040000.png)
+    ![](imgFuncionamiento/fiboncacci1040000.PMG)
 
     * 1050000
 
