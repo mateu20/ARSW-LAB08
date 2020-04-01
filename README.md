@@ -58,7 +58,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1010000
 
-    ![](imgFuncionamiento/fibonaacci1010000.PNG)
+    ![](imgFuncionamiento/fibonacci1010000.PNG)
 
     * 1020000
 
@@ -71,7 +71,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1040000
 
-    ![](imgFuncionamiento/fibonacci1040000.PMG)
+    ![](imgFuncionamiento/fibonacci1040000.PNG)
 
     * 1050000
 
@@ -80,7 +80,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
     * 1060000
 
-    ![](imgFuncionamiento/fibocacci1060000.PNG)
+    ![](imgFuncionamiento/fibonacci1060000.PNG)
 
     * 1070000
 
