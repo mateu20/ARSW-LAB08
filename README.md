@@ -46,66 +46,67 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 6. Antes de verificar si el endpoint funciona, en Azure vaya a la sección de *Networking* y cree una *Inbound port rule* tal como se muestra en la imágen. Para verificar que la aplicación funciona, use un browser y user el endpoint `http://xxx.xxx.xxx.xxx:3000/fibonacci/6`. La respuesta debe ser `The answer is 8`.
 
-![](imgFuncionamiento/fiboncacci8.PNG)
+![](imgFuncionamiento/fibonacci8.PNG)
 
 ![](images/part1/part1-vm-3000InboudRule.png)
 
 7. La función que calcula en enésimo número de la secuencia de Fibonacci está muy mal construido y consume bastante CPU para obtener la respuesta. Usando la consola del Browser documente los tiempos de respuesta para dicho endpoint usando los siguintes valores:
+
     * 1000000
 
-    ![](imgFuncionamiento/fiboncacci100000.PNG)
+    ![](imgFuncionamiento/fibonacci100000.PNG)
 
     * 1010000
 
-    ![](imgFuncionamiento/fiboncacci1010000.png)
+    ![](imgFuncionamiento/fibonaacci1010000.png)
 
     * 1020000
 
-    ![](imgFuncionamiento/fiboncacci1020000.png)
+    ![](imgFuncionamiento/fibonacci1020000.png)
 
 
     * 1030000
 
-    ![](imgFuncionamiento/fiboncacci1030000.PNG)
+    ![](imgFuncionamiento/fibonacci1030000.PNG)
 
     * 1040000
 
-    ![](imgFuncionamiento/fiboncacci1040000.PMG)
+    ![](imgFuncionamiento/fibonacci1040000.PMG)
 
     * 1050000
 
-    ![](imgFuncionamiento/fiboncacci1050000.png)
+    ![](imgFuncionamiento/fibonacci1050000.png)
 
 
     * 1060000
 
-    ![](imgFuncionamiento/fiboncacci1060000.png)
+    ![](imgFuncionamiento/fibocacci1060000.png)
 
     * 1070000
 
-    ![](imgFuncionamiento/fiboncacci1070000.png)
+    ![](imgFuncionamiento/fibonacci1070000.png)
 
     * 1080000
 
-    ![](imgFuncionamiento/fiboncacci1080000.png)
+    ![](imgFuncionamiento/fibonacci1080000.png)
 
     * 1090000    
 
-    ![](imgFuncionamiento/fiboncacci1090000.png)
+    ![](imgFuncionamiento/fibonacci1090000.png)
 
 
 8. Dírijase ahora a Azure y verifique el consumo de CPU para la VM. (Los resultados pueden tardar 5 minutos en aparecer).
 
 ![Imágen 2](images/part1/part1-vm-cpu.png)
 
-![](imgFuncionamiento/CPU.png)
+![](imgFuncionamiento/CPU.PNG)
 
 9. Ahora usaremos Postman para simular una carga concurrente a nuestro sistema. Siga estos pasos.
     * Instale newman con el comando `npm install newman -g`. Para conocer más de Newman consulte el siguiente [enlace](https://learning.getpostman.com/docs/postman/collection-runs/command-line-integration-with-newman/).
     * Diríjase hasta la ruta `FibonacciApp/postman` en una maquina diferente a la VM.
     * Para el archivo `[ARSW_LOAD-BALANCING_AZURE].postman_environment.json` cambie el valor del parámetro `VM1` para que coincida con la IP de su VM.
 
-    ![](imgFuncionamiento/postman.png)
+    ![](imgFuncionamiento/postman.PNG)
 
     * Ejecute el siguiente comando.
 
